@@ -38,7 +38,7 @@ ul {
 	overflow: hidden;
 	padding: 0 2rem;
 }
-header {
+#header {
 	background-color: black;
 }
 #header-img {
@@ -71,7 +71,7 @@ nav {
 }
 
 #nav-bar a {
-	padding: 0 1rem;
+	padding: 1rem;
 	color: white;
 }
 #input-div h2 {
@@ -115,6 +115,9 @@ form {
 	margin: 1rem 0;
 }
 
+#youtube-vid {
+	padding: 0 7rem;
+}
 .iframe-div {
 	display: flex;
 }
@@ -143,6 +146,7 @@ form {
 
 #footer-id a {
 	padding: 0 1rem;
+	color: black;
 }
 .prices-surrounding-div {
 	border: 1px black solid;
@@ -174,4 +178,10 @@ form {
 }
 .prices-surrounding-div li {
 	padding: 0 1rem;
+}
+
+@media (max-width: 850px) {
+	body {
+		display: none;
+	}
 }
