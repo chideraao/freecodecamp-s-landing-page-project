@@ -24,16 +24,12 @@ h4 {
 }
 
 a {
-	color: var(--primary-color);
+	color: white;
 	text-decoration: none;
 }
 
 ul {
 	list-style: none;
-}
-
-img {
-	width: 100%;
 }
 
 .container {
@@ -42,20 +38,30 @@ img {
 	overflow: hidden;
 	padding: 0 2rem;
 }
-
+header {
+	background-color: black;
+}
 #header-img {
 	height: 40px;
 	width: 50px;
 }
-#header {
+#header div {
 	display: grid;
+	color: white;
 	grid-template-columns: 1fr 1fr;
+	border-radius: 40px;
 }
+
 #header-div {
 	display: flex;
 	justify-self: flex-start;
 	align-items: center;
 	justify-content: center;
+	margin: 2rem;
+}
+
+nav {
+	margin: 2rem;
 }
 #nav-bar {
 	justify-self: flex-end;
@@ -65,5 +71,107 @@ img {
 }
 
 #nav-bar a {
+	padding: 0 1rem;
+	color: white;
+}
+#input-div h2 {
+	margin: 0 auto;
+	padding: 1rem 10rem;
+}
+
+#input-div {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#email {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid black;
+	border-radius: 15px;
+	padding: 0.6rem 0.7rem;
+	font-size: 0.7rem;
+}
+.btn {
+	display: block;
+	color: white;
+	background-color: black;
+	padding: 0.7rem 1rem;
+	border: none;
+	cursor: pointer;
+	font-size: 0.8rem;
+	border-radius: 20px;
+	text-align: center;
+}
+
+#features {
+	background-color: black;
+	color: white;
+	margin: 1rem 0;
+}
+
+.iframe-div {
+	display: flex;
+}
+.iframe-div h2 {
+	padding: 1rem 1rem;
+}
+
+#headphone-types {
+	background-color: black;
+	color: white;
+}
+
+#footer-id {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+#footer-id ul {
+	display: flex;
+	justify-self: flex-start;
+}
+
+#footer-id div {
+	display: flex;
+	justify-self: flex-end;
+}
+
+#footer-id a {
+	padding: 0 1rem;
+}
+.prices-surrounding-div {
+	border: 1px black solid;
+	margin: 2rem;
+	padding: 0.5rem;
+	align-content: center;
+}
+
+.btn-02 {
+	display: block;
+	color: black;
+	background-color: white;
+	padding: 0.5rem 0.5rem;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	border-radius: 20px;
+	text-align: center;
+}
+#prices-div {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.prices-surrounding-div h2 {
+	font-size: 25px;
+}
+.prices-surrounding-div p {
+	padding: 0 3rem;
+}
+.prices-surrounding-div li {
 	padding: 0 1rem;
 }
